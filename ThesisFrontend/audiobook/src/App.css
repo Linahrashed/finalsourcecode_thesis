@@ -1,0 +1,161 @@
+/* App.css */
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+  
+  /* height: 100%;
+  width: 100%; */
+}
+
+.app-container {
+  /* min-height: 100%;
+  min-width: 100%; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f7ff;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.content-container {
+  background-color: #b8b8ff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.2);
+  width: 90%; /* Increase the width */
+  max-width: 800px; /* Increase the max-width */
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #ffffff; */
+  padding: 20px;
+  /* border-bottom: 2px solid #b8b8ff; */
+}
+
+.app-description {
+  color: #ffffff; /* Adjust the color as needed */
+  font-size: 1rem;
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  /* color: #ffffff; Adjust the color as needed */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.explore-github-button {
+  background-color: #9381ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.explore-github-button:hover {
+  background-color: #7764e2;
+}
+
+.svg-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 8px;
+}
+
+/* ... Rest of the styles remain unchanged */
+
+
+
+.app-title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 90%; /* Decrease the width */
+  height: 180px; /* Increase the height */
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #9381ff;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+
+.text-input:hover,
+.text-input:focus {
+  border-color: #7764e2;
+}
+
+.convert-button {
+  background-color: #9381ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid #9381ff;
+}
+
+.convert-button:hover {
+  background-color: #ffffff;
+  border: 2px solid #715af8;
+  color: #715af8;
+  border-radius: 8px;
+}
+
+.audio-container {
+  margin-top: 20px;
+}
+
+.play-button {
+  background-color: #9381ff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: #7764e2;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 10px;
+}
